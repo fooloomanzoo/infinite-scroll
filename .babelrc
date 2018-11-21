@@ -1,0 +1,12 @@
+{
+  "presets":  ["env", "react"],
+  "env": {
+    "test": {
+      "presets": ["env", "react"]
+    },
+    "production": {
+      "presets": ["env", "react", "minify"]
+    }
+  },
+  "plugins": ["transform-class-properties"]
+}

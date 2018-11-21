@@ -1,0 +1,24 @@
+.msg_container {
+  display: inline-flex;
+  flex-flow: row nowrap;
+  align-items: baseline;
+  padding: 0.4em;
+}
+
+.msg_container:nth-child(2n-1) {
+  background: rgba(255,255,255,0.5);
+}
+
+.msg_user {
+  flex: 0 0 auto;
+  max-width: 25%;
+  word-break: break-all;
+  user-select: none;
+  cursor: none;
+}
+
+.msg_text {
+  flex: 1 1 auto;
+  word-break: keep-all;
+  padding-left: 0.8em;
+}
